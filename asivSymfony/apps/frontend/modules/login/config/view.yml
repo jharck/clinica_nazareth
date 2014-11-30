@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Sistema de Control de Clinica
+    description:  Sistema desarrollado para la materia de ASI2 UFG. 2014.
+    keywords:     symfony, clinic, project
+    language:     en
+    #robots:       index, follow
+
+  stylesheets:    [bootstrap.min.css, plugins/metisMenu/metisMenu.min.css, sb-admin-2.css, jquery.gritter.css]
+
+  javascripts:    [jquery-1.11.0.js, bootstrap.min.js, plugins/metisMenu/metisMenu.min.js, sb-admin-2.js, jquery.gritter.js, jsUtils.js]
+
+  has_layout:     true
+  layout:         login_layout

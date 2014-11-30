@@ -1,0 +1,631 @@
+Nov 28 03:12:23 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 28 03:12:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:12:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:12:23 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 28 03:12:23 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Nov 28 03:12:23 symfony [info] {sfPHPView} Decorate content with "/home/debian/workspace/htdocs/asivSymfony/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Nov 28 03:12:23 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Nov 28 03:12:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 28 03:12:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:12:23 symfony [info] {sfWebDebugLogger} Configuration 126.53 ms (10)
+Nov 28 03:12:23 symfony [info] {sfWebDebugLogger} Factories 138.87 ms (1)
+Nov 28 03:12:23 symfony [info] {sfWebDebugLogger} Action "default/index" 0.20 ms (1)
+Nov 28 03:12:23 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 12.56 ms (1)
+Nov 28 03:12:23 symfony [info] {sfWebResponse} Send content (30221 o)
+Nov 28 03:12:53 symfony [info] {sfPatternRouting} Match route "departamento" (/departamento.:sf_format) for /departamento with parameters array (  'module' => 'departamento',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:12:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:12:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:12:53 symfony [info] {departamentoActions} Call "departamentoActions->executeIndex()"
+Nov 28 03:13:48 symfony [info] {sfPatternRouting} Match route "departamento" (/departamento.:sf_format) for /departamento with parameters array (  'module' => 'departamento',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:13:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:13:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:13:48 symfony [info] {departamentoActions} Call "departamentoActions->executeIndex()"
+Nov 28 03:14:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 28 03:14:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:14:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:14:01 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 28 03:14:01 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Nov 28 03:14:01 symfony [info] {sfPHPView} Decorate content with "/home/debian/workspace/htdocs/asivSymfony/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Nov 28 03:14:01 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Nov 28 03:14:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 28 03:14:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:14:01 symfony [info] {sfWebDebugLogger} Configuration 18.29 ms (10)
+Nov 28 03:14:01 symfony [info] {sfWebDebugLogger} Factories 29.31 ms (1)
+Nov 28 03:14:01 symfony [info] {sfWebDebugLogger} Action "default/index" 0.17 ms (1)
+Nov 28 03:14:01 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 11.37 ms (1)
+Nov 28 03:14:01 symfony [info] {sfWebResponse} Send content (30220 o)
+Nov 28 03:14:05 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 28 03:14:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:14:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:14:05 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 28 03:14:05 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Nov 28 03:14:05 symfony [info] {sfPHPView} Decorate content with "/home/debian/workspace/htdocs/asivSymfony/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Nov 28 03:14:05 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Nov 28 03:14:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 28 03:14:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:14:05 symfony [info] {sfWebDebugLogger} Configuration 1.55 ms (9)
+Nov 28 03:14:05 symfony [info] {sfWebDebugLogger} Factories 27.74 ms (1)
+Nov 28 03:14:05 symfony [info] {sfWebDebugLogger} Action "default/index" 0.15 ms (1)
+Nov 28 03:14:05 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 8.52 ms (1)
+Nov 28 03:14:05 symfony [info] {sfWebResponse} Send content (30215 o)
+Nov 28 03:16:09 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /CasaMedica with parameters array (  'module' => 'CasaMedica',  'action' => 'index',)
+Nov 28 03:16:09 symfony [info] {sfFrontWebController} Action "CasaMedica/index" does not exist
+Nov 28 03:16:09 symfony [err] {sfError404Exception} Action "CasaMedica/index" does not exist.
+Nov 28 03:16:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Nov 28 03:16:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:16:09 symfony [info] {sfWebDebugLogger} Configuration 0.81 ms (5)
+Nov 28 03:16:09 symfony [info] {sfWebDebugLogger} Factories 29.62 ms (1)
+Nov 28 03:16:22 symfony [info] {sfPatternRouting} Match route "casa_medica" (/casa_medica.:sf_format) for /casa_medica with parameters array (  'module' => 'casa_medica',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:16:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:16:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:16:22 symfony [info] {casa_medicaActions} Call "casa_medicaActions->executeIndex()"
+Nov 28 03:19:08 symfony [info] {sfPatternRouting} Match route "casa_medica_provider" (/provider.:sf_format) for /provider with parameters array (  'module' => 'provider',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:19:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:19:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:19:08 symfony [info] {providerActions} Call "providerActions->executeIndex()"
+Nov 28 03:19:23 symfony [info] {sfPatternRouting} Match route "casa_medica_provider" (/provider.:sf_format) for /provider with parameters array (  'module' => 'provider',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:19:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:19:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:19:23 symfony [info] {providerActions} Call "providerActions->executeIndex()"
+Nov 28 03:19:33 symfony [info] {sfPatternRouting} Match route "casa_medica_provider" (/provider.:sf_format) for /provider with parameters array (  'module' => 'provider',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:19:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:19:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:19:33 symfony [info] {providerActions} Call "providerActions->executeIndex()"
+Nov 28 03:20:15 symfony [info] {sfPatternRouting} Match route "casa_medica_provider" (/provider.:sf_format) for /provider with parameters array (  'module' => 'provider',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:20:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:20:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:20:15 symfony [info] {providerActions} Call "providerActions->executeIndex()"
+Nov 28 03:20:15 symfony [info] {sfPatternRouting} Match route "casa_medica_provider" (/provider.:sf_format) for /provider with parameters array (  'module' => 'provider',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:20:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:20:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:20:15 symfony [info] {providerActions} Call "providerActions->executeIndex()"
+Nov 28 03:20:16 symfony [info] {sfPatternRouting} Match route "casa_medica_provider" (/provider.:sf_format) for /provider with parameters array (  'module' => 'provider',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:20:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:20:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:20:16 symfony [info] {providerActions} Call "providerActions->executeIndex()"
+Nov 28 03:20:16 symfony [info] {sfPatternRouting} Match route "casa_medica_provider" (/provider.:sf_format) for /provider with parameters array (  'module' => 'provider',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:20:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:20:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:20:16 symfony [info] {providerActions} Call "providerActions->executeIndex()"
+Nov 28 03:20:38 symfony [info] {sfPatternRouting} Match route "casa_medica_provider" (/provider.:sf_format) for /provider with parameters array (  'module' => 'provider',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:20:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:20:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:20:38 symfony [info] {providerActions} Call "providerActions->executeIndex()"
+Nov 28 03:20:40 symfony [info] {sfPatternRouting} Match route "casa_medica_provider" (/provider.:sf_format) for /provider with parameters array (  'module' => 'provider',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:20:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:20:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:20:40 symfony [info] {providerActions} Call "providerActions->executeIndex()"
+Nov 28 03:22:14 symfony [info] {sfPatternRouting} Match route "casa_medica_provider" (/provider.:sf_format) for /provider with parameters array (  'module' => 'provider',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:22:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:22:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:22:14 symfony [info] {providerActions} Call "providerActions->executeIndex()"
+Nov 28 03:23:48 symfony [info] {sfPatternRouting} Match route "casa_medica_provider" (/provider.:sf_format) for /provider with parameters array (  'module' => 'provider',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:23:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:23:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:23:48 symfony [info] {providerActions} Call "providerActions->executeIndex()"
+Nov 28 03:23:58 symfony [info] {sfPatternRouting} Match route "casa_medica_provider" (/provider.:sf_format) for /provider with parameters array (  'module' => 'provider',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:23:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:23:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:23:58 symfony [info] {providerActions} Call "providerActions->executeIndex()"
+Nov 28 03:23:59 symfony [info] {sfPatternRouting} Match route "casa_medica" (/casa_medica.:sf_format) for /casa_medica with parameters array (  'module' => 'casa_medica',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:23:59 symfony [info] {sfFrontWebController} Action "casa_medica/index" does not exist
+Nov 28 03:23:59 symfony [err] {sfError404Exception} Action "casa_medica/index" does not exist.
+Nov 28 03:23:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Nov 28 03:23:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:23:59 symfony [info] {sfWebDebugLogger} Configuration 0.75 ms (5)
+Nov 28 03:23:59 symfony [info] {sfWebDebugLogger} Factories 28.05 ms (1)
+Nov 28 03:24:01 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /CasaMedica with parameters array (  'module' => 'CasaMedica',  'action' => 'index',)
+Nov 28 03:24:01 symfony [info] {sfFrontWebController} Action "CasaMedica/index" does not exist
+Nov 28 03:24:01 symfony [err] {sfError404Exception} Action "CasaMedica/index" does not exist.
+Nov 28 03:24:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Nov 28 03:24:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:24:01 symfony [info] {sfWebDebugLogger} Configuration 0.72 ms (5)
+Nov 28 03:24:01 symfony [info] {sfWebDebugLogger} Factories 27.75 ms (1)
+Nov 28 03:24:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 28 03:24:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:24:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:24:02 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 28 03:24:02 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Nov 28 03:24:02 symfony [info] {sfPHPView} Decorate content with "/home/debian/workspace/htdocs/asivSymfony/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Nov 28 03:24:02 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Nov 28 03:24:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 28 03:24:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:24:02 symfony [info] {sfWebDebugLogger} Configuration 16.81 ms (10)
+Nov 28 03:24:02 symfony [info] {sfWebDebugLogger} Factories 27.80 ms (1)
+Nov 28 03:24:02 symfony [info] {sfWebDebugLogger} Action "default/index" 0.15 ms (1)
+Nov 28 03:24:02 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 10.90 ms (1)
+Nov 28 03:24:02 symfony [info] {sfWebResponse} Send content (30219 o)
+Nov 28 03:27:02 symfony [info] {sfPatternRouting} Match route "posicion" (/posicion.:sf_format) for /posicion with parameters array (  'module' => 'posicion',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:27:02 symfony [info] {sfFrontWebController} Action "posicion/index" does not exist
+Nov 28 03:27:02 symfony [err] {sfError404Exception} Action "posicion/index" does not exist.
+Nov 28 03:27:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Nov 28 03:27:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:27:02 symfony [info] {sfWebDebugLogger} Configuration 92.35 ms (6)
+Nov 28 03:27:02 symfony [info] {sfWebDebugLogger} Factories 118.43 ms (1)
+Nov 28 03:27:18 symfony [info] {sfPatternRouting} Match route "posicion_rol" (/rol.:sf_format) for /rol with parameters array (  'module' => 'rol',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:27:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:27:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:27:18 symfony [info] {rolActions} Call "rolActions->executeIndex()"
+Nov 28 03:33:01 symfony [info] {sfPatternRouting} Match route "departamento" (/departamento.:sf_format) for /departamento with parameters array (  'module' => 'departamento',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:33:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:33:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:33:01 symfony [info] {departamentoActions} Call "departamentoActions->executeIndex()"
+Nov 28 03:33:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 28 03:33:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM departamento d - ()
+Nov 28 03:33:01 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/indexSuccess.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_assets.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_flashes.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_header.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_filters.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_filters_field.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_filters_field.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_th_tabular.php"
+Nov 28 03:33:01 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:33:01 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:33:01 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:33:01 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:33:01 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:33:01 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:33:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT d.id_departamento AS d__id_departamento, d.nombre AS d__nombre, d.status AS d__status FROM departamento d LIMIT 20 - ()
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_batch_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_tabular.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_batch_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_tabular.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_batch_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_tabular.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_batch_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_tabular.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_batch_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_tabular.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_batch_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_tabular.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_batch_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_tabular.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_batch_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_actions.php"
+Nov 28 03:33:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_footer.php"
+Nov 28 03:33:01 symfony [info] {sfPHPView} Decorate content with "/home/debian/workspace/htdocs/asivSymfony/apps/backend/templates/layout.php"
+Nov 28 03:33:01 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/apps/backend/templates/layout.php"
+Nov 28 03:33:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 28 03:33:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Configuration 179.35 ms (12)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Factories 159.68 ms (1)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Action "departamento/index" 70.83 ms (1)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.74 ms (3)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} View "Success" for "departamento/index" 95.93 ms (1)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Partial "departamento/_assets" 0.74 ms (1)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Partial "departamento/_flashes" 0.65 ms (1)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_header" 0.60 ms (1)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Partial "departamento/_filters" 9.05 ms (1)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Partial "departamento/_filters_field" 3.79 ms (2)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Partial "departamento/_list" 44.90 ms (1)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_th_tabular" 2.21 ms (1)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_td_batch_actions" 5.22 ms (7)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_td_tabular" 10.21 ms (7)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_td_actions" 13.04 ms (7)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_batch_actions" 1.31 ms (1)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_actions" 0.84 ms (1)
+Nov 28 03:33:01 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_footer" 0.59 ms (1)
+Nov 28 03:33:01 symfony [info] {sfWebResponse} Send content (94546 o)
+Nov 28 03:35:31 symfony [info] {sfPatternRouting} Match route "departamento" (/departamento.:sf_format) for /departamento with parameters array (  'module' => 'departamento',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:35:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:35:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:35:31 symfony [info] {departamentoActions} Call "departamentoActions->executeIndex()"
+Nov 28 03:35:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 28 03:35:31 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM departamento d - ()
+Nov 28 03:35:31 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/indexSuccess.php"
+Nov 28 03:35:31 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_assets.php"
+Nov 28 03:35:31 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/plugins/tmcTwitterBootstrapPlugin/modules/tmcTwitterBootstrap/templates/_assets.php"
+Nov 28 03:35:32 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_header.php"
+Nov 28 03:35:32 symfony [info] {main} Call "tmcTwitterBootstrap->executeHeader()"
+Nov 28 03:35:32 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/plugins/tmcTwitterBootstrapPlugin/modules/tmcTwitterBootstrap/templates/_header.php"
+Nov 28 03:35:32 symfony [warning] {sfWebDebugLogger}  Warning at /home/debian/workspace/htdocs/asivSymfony/plugins/tmcTwitterBootstrapPlugin/modules/tmcTwitterBootstrap/templates/_header.php on line 28 (array_key_exists() expects parameter 2 to be array, string given)
+Nov 28 03:35:32 symfony [warning] {sfWebDebugLogger}  Warning at /home/debian/workspace/htdocs/asivSymfony/plugins/tmcTwitterBootstrapPlugin/modules/tmcTwitterBootstrap/templates/_header.php on line 30 (Illegal string offset 'route')
+Nov 28 03:35:32 symfony [err] {sfException} Call to undefined method myUser::getGuardUser.
+Nov 28 03:35:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Nov 28 03:35:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:35:32 symfony [info] {sfWebDebugLogger} Configuration 91.84 ms (14)
+Nov 28 03:35:32 symfony [info] {sfWebDebugLogger} Factories 28.49 ms (1)
+Nov 28 03:35:32 symfony [info] {sfWebDebugLogger} Action "departamento/index" 23.75 ms (1)
+Nov 28 03:35:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.52 ms (2)
+Nov 28 03:35:32 symfony [info] {sfWebDebugLogger} View "Success" for "departamento/index" 316.47 ms (1)
+Nov 28 03:35:32 symfony [info] {sfWebDebugLogger} Partial "departamento/_assets" 84.58 ms (1)
+Nov 28 03:35:32 symfony [info] {sfWebDebugLogger} Partial "tmcTwitterBootstrap/_assets" 83.75 ms (1)
+Nov 28 03:35:32 symfony [info] {sfWebDebugLogger} Partial "departamento/_header" 223.44 ms (1)
+Nov 28 03:35:32 symfony [info] {sfWebDebugLogger} Component "tmcTwitterBootstrap/header" 0.37 ms (1)
+Nov 28 03:35:32 symfony [info] {sfWebDebugLogger} Partial "tmcTwitterBootstrap/_header" 185.67 ms (1)
+Nov 28 03:36:08 symfony [info] {sfPatternRouting} Match route "departamento" (/departamento.:sf_format) for /departamento with parameters array (  'module' => 'departamento',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:36:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:36:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:36:08 symfony [info] {departamentoActions} Call "departamentoActions->executeIndex()"
+Nov 28 03:36:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 28 03:36:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM departamento d - ()
+Nov 28 03:36:08 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/indexSuccess.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_assets.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_flashes.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_header.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_filters.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_filters_field.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_filters_field.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_th_tabular.php"
+Nov 28 03:36:08 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:36:08 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:36:08 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:36:08 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:36:08 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:36:08 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:36:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT d.id_departamento AS d__id_departamento, d.nombre AS d__nombre, d.status AS d__status FROM departamento d LIMIT 20 - ()
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_batch_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_tabular.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_batch_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_tabular.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_batch_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_tabular.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_batch_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_tabular.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_batch_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_tabular.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_batch_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_tabular.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_batch_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_tabular.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_td_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_batch_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_actions.php"
+Nov 28 03:36:08 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoDepartamento/templates/_list_footer.php"
+Nov 28 03:36:08 symfony [info] {sfPHPView} Decorate content with "/home/debian/workspace/htdocs/asivSymfony/apps/backend/templates/layout.php"
+Nov 28 03:36:08 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/apps/backend/templates/layout.php"
+Nov 28 03:36:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 28 03:36:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Configuration 41.79 ms (12)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Factories 28.89 ms (1)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Action "departamento/index" 23.86 ms (1)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.09 ms (3)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} View "Success" for "departamento/index" 79.68 ms (1)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Partial "departamento/_assets" 0.64 ms (1)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Partial "departamento/_flashes" 0.65 ms (1)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_header" 0.60 ms (1)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Partial "departamento/_filters" 7.51 ms (1)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Partial "departamento/_filters_field" 3.16 ms (2)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Partial "departamento/_list" 51.01 ms (1)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_th_tabular" 2.50 ms (1)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_td_batch_actions" 5.27 ms (7)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_td_tabular" 10.46 ms (7)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_td_actions" 14.34 ms (7)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_batch_actions" 1.39 ms (1)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_actions" 0.88 ms (1)
+Nov 28 03:36:08 symfony [info] {sfWebDebugLogger} Partial "departamento/_list_footer" 0.59 ms (1)
+Nov 28 03:36:08 symfony [info] {sfWebResponse} Send content (94627 o)
+Nov 28 03:37:01 symfony [info] {sfPatternRouting} Match route "tipo_presentacion" (/tipo_presentacion.:sf_format) for /tipo_presentacion with parameters array (  'module' => 'tipo_presentacion',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:37:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:37:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:37:01 symfony [info] {tipo_presentacionActions} Call "tipo_presentacionActions->executeIndex()"
+Nov 28 03:37:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 28 03:37:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM tipo_presentacion t - ()
+Nov 28 03:37:01 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/indexSuccess.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_assets.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_flashes.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_header.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_filters.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_filters_field.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_filters_field.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_th_tabular.php"
+Nov 28 03:37:01 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:37:01 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:37:01 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:37:01 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:37:01 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:37:01 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:37:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.id_tipo_presentacion AS t__id_tipo_presentacion, t.nombre AS t__nombre, t.status AS t__status FROM tipo_presentacion t LIMIT 20 - ()
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_batch_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_tabular.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_batch_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_tabular.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_batch_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_tabular.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_batch_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_tabular.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_batch_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_tabular.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_batch_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_tabular.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_batch_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_tabular.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_td_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_batch_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_actions.php"
+Nov 28 03:37:01 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoTipo_presentacion/templates/_list_footer.php"
+Nov 28 03:37:01 symfony [info] {sfPHPView} Decorate content with "/home/debian/workspace/htdocs/asivSymfony/apps/backend/templates/layout.php"
+Nov 28 03:37:01 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/apps/backend/templates/layout.php"
+Nov 28 03:37:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 28 03:37:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Configuration 50.54 ms (12)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Factories 28.83 ms (1)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Action "tipo_presentacion/index" 21.13 ms (1)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.20 ms (3)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} View "Success" for "tipo_presentacion/index" 78.52 ms (1)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Partial "tipo_presentacion/_assets" 0.81 ms (1)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Partial "tipo_presentacion/_flashes" 0.76 ms (1)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Partial "tipo_presentacion/_list_header" 0.62 ms (1)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Partial "tipo_presentacion/_filters" 8.06 ms (1)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Partial "tipo_presentacion/_filters_field" 3.37 ms (2)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Partial "tipo_presentacion/_list" 50.76 ms (1)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Partial "tipo_presentacion/_list_th_tabular" 2.39 ms (1)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Partial "tipo_presentacion/_list_td_batch_actions" 5.42 ms (7)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Partial "tipo_presentacion/_list_td_tabular" 13.41 ms (7)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Partial "tipo_presentacion/_list_td_actions" 15.15 ms (7)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Partial "tipo_presentacion/_list_batch_actions" 1.15 ms (1)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Partial "tipo_presentacion/_list_actions" 0.78 ms (1)
+Nov 28 03:37:01 symfony [info] {sfWebDebugLogger} Partial "tipo_presentacion/_list_footer" 0.56 ms (1)
+Nov 28 03:37:01 symfony [info] {sfWebResponse} Send content (96156 o)
+Nov 28 03:37:25 symfony [info] {sfPatternRouting} Match route "medicina" (/medicina.:sf_format) for /medicina with parameters array (  'module' => 'medicina',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:37:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:37:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:37:25 symfony [info] {medicinaActions} Call "medicinaActions->executeIndex()"
+Nov 28 03:37:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 28 03:37:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM medicina m - ()
+Nov 28 03:37:25 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/indexSuccess.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_assets.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_flashes.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_header.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_filters.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_filters_field.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_filters_field.php"
+Nov 28 03:37:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.id_tipo_presentacion AS t__id_tipo_presentacion, t.nombre AS t__nombre, t.status AS t__status FROM tipo_presentacion t - ()
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_filters_field.php"
+Nov 28 03:37:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id_casa_medica AS c__id_casa_medica, c.nombre AS c__nombre, c.nombre_contacto AS c__nombre_contacto, c.telefono AS c__telefono, c.fecha_contrato AS c__fecha_contrato, c.status AS c__status FROM casa_medica c - ()
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_filters_field.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_filters_field.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_filters_field.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_filters_field.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_filters_field.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_th_tabular.php"
+Nov 28 03:37:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:37:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id_medicina AS m__id_medicina, m.nombre AS m__nombre, m.id_tipo_presentacion AS m__id_tipo_presentacion, m.id_casa_medica AS m__id_casa_medica, m.limite_menor AS m__limite_menor, m.limite_normal AS m__limite_normal, m.limite_optimo AS m__limite_optimo, m.precio_unidad AS m__precio_unidad, m.existencia AS m__existencia FROM medicina m LIMIT 20 - ()
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_td_batch_actions.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_td_tabular.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_td_actions.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_td_batch_actions.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_td_tabular.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_td_actions.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_td_batch_actions.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_td_tabular.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_td_actions.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_td_batch_actions.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_td_tabular.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_td_actions.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_batch_actions.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_actions.php"
+Nov 28 03:37:25 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoMedicina/templates/_list_footer.php"
+Nov 28 03:37:25 symfony [info] {sfPHPView} Decorate content with "/home/debian/workspace/htdocs/asivSymfony/apps/backend/templates/layout.php"
+Nov 28 03:37:25 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/apps/backend/templates/layout.php"
+Nov 28 03:37:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 28 03:37:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Configuration 59.80 ms (12)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Factories 30.55 ms (1)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Action "medicina/index" 84.47 ms (1)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.30 ms (5)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} View "Success" for "medicina/index" 110.59 ms (1)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Partial "medicina/_assets" 0.63 ms (1)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Partial "medicina/_flashes" 0.65 ms (1)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Partial "medicina/_list_header" 0.58 ms (1)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Partial "medicina/_filters" 56.92 ms (1)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Partial "medicina/_filters_field" 28.60 ms (8)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Partial "medicina/_list" 34.31 ms (1)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Partial "medicina/_list_th_tabular" 5.60 ms (1)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Partial "medicina/_list_td_batch_actions" 3.06 ms (4)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Partial "medicina/_list_td_tabular" 8.16 ms (4)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Partial "medicina/_list_td_actions" 8.54 ms (4)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Partial "medicina/_list_batch_actions" 1.09 ms (1)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Partial "medicina/_list_actions" 0.80 ms (1)
+Nov 28 03:37:25 symfony [info] {sfWebDebugLogger} Partial "medicina/_list_footer" 0.59 ms (1)
+Nov 28 03:37:25 symfony [info] {sfWebResponse} Send content (120544 o)
+Nov 28 03:38:01 symfony [info] {sfPatternRouting} Match route "casa_medica" (/casa_medica.:sf_format) for /casa_medica with parameters array (  'module' => 'casa_medica',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:38:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:38:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:38:02 symfony [info] {casa_medicaActions} Call "casa_medicaActions->executeIndex()"
+Nov 28 03:38:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 28 03:38:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM casa_medica c - ()
+Nov 28 03:38:02 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/indexSuccess.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_assets.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_flashes.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_header.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_filters.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_filters_field.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_filters_field.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_filters_field.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_filters_field.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_filters_field.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_th_tabular.php"
+Nov 28 03:38:02 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:38:02 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:38:02 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:38:02 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:38:02 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:38:02 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:38:02 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:38:02 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:38:02 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:38:02 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:38:02 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:38:02 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:38:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id_casa_medica AS c__id_casa_medica, c.nombre AS c__nombre, c.nombre_contacto AS c__nombre_contacto, c.telefono AS c__telefono, c.fecha_contrato AS c__fecha_contrato, c.status AS c__status FROM casa_medica c LIMIT 20 - ()
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_batch_actions.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_tabular.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_actions.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_batch_actions.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_tabular.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_actions.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_batch_actions.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_tabular.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_actions.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_batch_actions.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_actions.php"
+Nov 28 03:38:02 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_footer.php"
+Nov 28 03:38:02 symfony [info] {sfPHPView} Decorate content with "/home/debian/workspace/htdocs/asivSymfony/apps/backend/templates/layout.php"
+Nov 28 03:38:02 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/apps/backend/templates/layout.php"
+Nov 28 03:38:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 28 03:38:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Configuration 54.96 ms (12)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Factories 28.58 ms (1)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Action "casa_medica/index" 96.89 ms (1)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.69 ms (3)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} View "Success" for "casa_medica/index" 157.22 ms (1)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_assets" 0.64 ms (1)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_flashes" 0.64 ms (1)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_header" 0.57 ms (1)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_filters" 24.29 ms (1)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_filters_field" 18.00 ms (5)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list" 109.33 ms (1)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_th_tabular" 3.83 ms (1)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_td_batch_actions" 2.27 ms (3)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_td_tabular" 83.33 ms (3)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_td_actions" 5.95 ms (3)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_batch_actions" 1.04 ms (1)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_actions" 0.76 ms (1)
+Nov 28 03:38:02 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_footer" 0.65 ms (1)
+Nov 28 03:38:02 symfony [info] {sfWebResponse} Send content (95855 o)
+Nov 28 03:39:11 symfony [info] {sfPatternRouting} Match route "casa_medica_edit" (/casa_medica/:id_casa_medica/edit.:sf_format) for /casa_medica/2/edit with parameters array (  'module' => 'casa_medica',  'action' => 'edit',  'sf_format' => 'html',  'id_casa_medica' => '2',)
+Nov 28 03:39:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:39:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:39:11 symfony [info] {casa_medicaActions} Call "casa_medicaActions->executeEdit()"
+Nov 28 03:39:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 28 03:39:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id_casa_medica AS c__id_casa_medica, c.nombre AS c__nombre, c.nombre_contacto AS c__nombre_contacto, c.telefono AS c__telefono, c.fecha_contrato AS c__fecha_contrato, c.status AS c__status FROM casa_medica c WHERE (c.id_casa_medica = ?) - (2)
+Nov 28 03:39:11 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/editSuccess.php"
+Nov 28 03:39:11 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_assets.php"
+Nov 28 03:39:11 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_flashes.php"
+Nov 28 03:39:11 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_form_header.php"
+Nov 28 03:39:11 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_form.php"
+Nov 28 03:39:11 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_form_fieldset.php"
+Nov 28 03:39:11 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_form_field.php"
+Nov 28 03:39:11 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_form_field.php"
+Nov 28 03:39:11 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_form_field.php"
+Nov 28 03:39:11 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_form_field.php"
+Nov 28 03:39:11 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_form_field.php"
+Nov 28 03:39:11 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_form_actions.php"
+Nov 28 03:39:11 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_form_footer.php"
+Nov 28 03:39:11 symfony [info] {sfPHPView} Decorate content with "/home/debian/workspace/htdocs/asivSymfony/apps/backend/templates/layout.php"
+Nov 28 03:39:11 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/apps/backend/templates/layout.php"
+Nov 28 03:39:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 28 03:39:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:39:11 symfony [info] {sfWebDebugLogger} Configuration 246.36 ms (11)
+Nov 28 03:39:11 symfony [info] {sfWebDebugLogger} Factories 168.66 ms (1)
+Nov 28 03:39:11 symfony [info] {sfWebDebugLogger} Action "casa_medica/edit" 75.00 ms (1)
+Nov 28 03:39:11 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.52 ms (2)
+Nov 28 03:39:11 symfony [info] {sfWebDebugLogger} View "Success" for "casa_medica/edit" 45.30 ms (1)
+Nov 28 03:39:11 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_assets" 0.73 ms (1)
+Nov 28 03:39:11 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_flashes" 0.71 ms (1)
+Nov 28 03:39:11 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_form_header" 0.76 ms (1)
+Nov 28 03:39:11 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_form" 26.48 ms (1)
+Nov 28 03:39:11 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_form_fieldset" 18.47 ms (1)
+Nov 28 03:39:11 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_form_field" 14.30 ms (5)
+Nov 28 03:39:11 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_form_actions" 3.58 ms (1)
+Nov 28 03:39:11 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_form_footer" 0.80 ms (1)
+Nov 28 03:39:11 symfony [info] {sfWebResponse} Send content (77050 o)
+Nov 28 03:39:14 symfony [info] {sfPatternRouting} Match route "casa_medica" (/casa_medica.:sf_format) for /casa_medica with parameters array (  'module' => 'casa_medica',  'action' => 'index',  'sf_format' => 'html',)
+Nov 28 03:39:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 28 03:39:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 28 03:39:14 symfony [info] {casa_medicaActions} Call "casa_medicaActions->executeIndex()"
+Nov 28 03:39:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 28 03:39:14 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM casa_medica c - ()
+Nov 28 03:39:14 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/indexSuccess.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_assets.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_flashes.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_header.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_filters.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_filters_field.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_filters_field.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_filters_field.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_filters_field.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_filters_field.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_th_tabular.php"
+Nov 28 03:39:14 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:39:14 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:39:14 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:39:14 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:39:14 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:39:14 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:39:14 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:39:14 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:39:14 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:39:14 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:39:14 symfony [info] {main} Set slot "sf_admin.current_header"
+Nov 28 03:39:14 symfony [info] {main} Get slot "sf_admin.current_header"
+Nov 28 03:39:14 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id_casa_medica AS c__id_casa_medica, c.nombre AS c__nombre, c.nombre_contacto AS c__nombre_contacto, c.telefono AS c__telefono, c.fecha_contrato AS c__fecha_contrato, c.status AS c__status FROM casa_medica c LIMIT 20 - ()
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_batch_actions.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_tabular.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_actions.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_batch_actions.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_tabular.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_actions.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_batch_actions.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_tabular.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_td_actions.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_batch_actions.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_actions.php"
+Nov 28 03:39:14 symfony [info] {sfPartialView} Render "/home/debian/workspace/htdocs/asivSymfony/cache/backend/dev/modules/autoCasa_medica/templates/_list_footer.php"
+Nov 28 03:39:14 symfony [info] {sfPHPView} Decorate content with "/home/debian/workspace/htdocs/asivSymfony/apps/backend/templates/layout.php"
+Nov 28 03:39:14 symfony [info] {sfPHPView} Render "/home/debian/workspace/htdocs/asivSymfony/apps/backend/templates/layout.php"
+Nov 28 03:39:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 28 03:39:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Configuration 2.19 ms (11)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Factories 32.02 ms (1)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Action "casa_medica/index" 33.64 ms (1)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.54 ms (3)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} View "Success" for "casa_medica/index" 86.57 ms (1)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_assets" 0.69 ms (1)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_flashes" 0.67 ms (1)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_header" 0.60 ms (1)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_filters" 27.15 ms (1)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_filters_field" 19.48 ms (5)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list" 41.22 ms (1)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_th_tabular" 4.13 ms (1)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_td_batch_actions" 2.66 ms (3)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_td_tabular" 14.69 ms (3)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_td_actions" 8.00 ms (3)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_batch_actions" 1.47 ms (1)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_actions" 1.39 ms (1)
+Nov 28 03:39:14 symfony [info] {sfWebDebugLogger} Partial "casa_medica/_list_footer" 1.01 ms (1)
+Nov 28 03:39:14 symfony [info] {sfWebResponse} Send content (95980 o)

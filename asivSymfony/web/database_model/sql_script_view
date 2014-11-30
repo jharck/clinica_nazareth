@@ -1,0 +1,62 @@
+SELECT COUNT(DISTINCT(c.id_cita)) AS c__0 FROM cita c WHERE (c.fecha_cita = '2014-11-04');
+SELECT * FROM cita c WHERE (c.fecha_cita >= '2014-11-02' AND c.fecha_cita <= '2014-11-11');
+
+SELECT * FROM cita_comentario cc Where cc.id_cita IN (SELECT c.id_cita FROM cita c Where c.id_paciente = 1);
+
+SELECT * FROM receta_cita rc Where rc.id_cita IN (SELECT c.id_cita FROM cita c Where c.id_paciente = 1);
+
+/* vista de citas */
+SELECT 
+    c.id_cita AS cita_id, 
+    CONCAT(up.nombre, " ", up.apellido) AS paciente, 
+    CONCAT(ue.nombre, " ", ue.apellido) AS 'empleado', 
+    c.fecha_cita AS 'fecha_de_cita', 
+    c.inicio_hora_cita AS 'hora_de_inicio', 
+    c.fin_hora_cita AS 'hora_de_fin', 
+    ec.nombre AS 'estado_cita', 
+    c.fecha_creacion AS 'fecha_creacion',
+    ((TIME_TO_SEC(c.fin_hora_cita) - TIME_TO_SEC(c.inicio_hora_cita))/60) as 'duracion_minutos',
+    TIMEDIFF(c.fin_hora_cita, c.inicio_hora_cita) as 'duracion_horas'
+FROM cita c 
+INNER JOIN paciente p ON p.id_paciente = c.id_paciente
+INNER JOIN usuario up ON up.id_usuario = p.id_usuario
+INNER JOIN estado_cita ec ON ec.id_estado_cita = c.id_estado_cita
+INNER JOIN empleado emp ON emp.id_empleado = c.id_empleado
+INNER JOIN usuario ue ON ue.id_usuario = emp.id_usuario
+ORDER BY c.inicio_hora_cita ASC;
+
+/* vista suma tiempo en cita (por año) por paciente [ordenada de forma descendente]*/
+SELECT 
+    c.id_paciente as 'paciente_id',
+    YEAR(c.fecha_cita) as 'año_cita',
+    CONCAT(up.nombre, " ", up.apellido) AS paciente, 
+    SUM(((TIME_TO_SEC(c.fin_hora_cita) - TIME_TO_SEC(c.inicio_hora_cita))/60)) as 'tiempo_total_citas'
+FROM cita c 
+INNER JOIN paciente p ON p.id_paciente = c.id_paciente
+INNER JOIN usuario up ON up.id_usuario = p.id_usuario
+INNER JOIN estado_cita ec ON ec.id_estado_cita = c.id_estado_cita
+GROUP BY c.id_paciente, YEAR(c.fecha_cita)
+ORDER BY 4 DESC;
+
+
+/* funcion calcular edad de paciente */
+SELECT 
+    DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(p.fecha_nacimiento)), '%Y')+0 AS edad 
+FROM paciente p;
+
+/* get Genero paciente */
+SELECT u.genero from paciente p 
+inner join usuario u ON u.id_usuario = p.id_usuario
+WHERE p.id_paciente = 1;
+
+/* get paciente nombre */
+SELECT getPacienteNombre(1);
+
+SELECT cc.id_cita_comentario FROM cita_comentario cc WHERE cc.id_cita = 1;
+
+CALL insertar_cita_comentatio(1, 'McCubo');
+
+SELECT m.nombre, sum(rc.cantidad) FROM receta_cita rc 
+INNER JOIN medicina m ON m.id_medicina = rc.id_medicina
+WHERE rc.id_cita IN (SELECT c.id_cita FROM cita c WHERE c.id_paciente = 1)
+GROUP BY rc.id_medicina;

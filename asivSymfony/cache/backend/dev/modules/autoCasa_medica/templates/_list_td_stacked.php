@@ -1,0 +1,3 @@
+<td colspan="6">
+  <?php echo __('%%id_casa_medica%% - %%nombre%% - %%nombre_contacto%% - %%telefono%% - %%fecha_contrato%% - %%status%%', array('%%id_casa_medica%%' => link_to($casa_medica->getIdCasaMedica(), 'casa_medica_edit', $casa_medica), '%%nombre%%' => $casa_medica->getNombre(), '%%nombre_contacto%%' => $casa_medica->getNombreContacto(), '%%telefono%%' => $casa_medica->getTelefono(), '%%fecha_contrato%%' => false !== strtotime($casa_medica->getFechaContrato()) ? format_date($casa_medica->getFechaContrato(), "f") : '&nbsp;', '%%status%%' => $casa_medica->getStatus()), 'messages') ?>
+</td>

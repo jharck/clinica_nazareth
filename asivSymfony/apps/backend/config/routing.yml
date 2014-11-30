@@ -1,0 +1,79 @@
+posicion_rol:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Posicion
+    module:               rol
+    prefix_path:          /rol
+    column:               id_posicion
+    with_wildcard_routes: true
+
+casa_medica_provider:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                CasaMedica
+    module:               provider
+    prefix_path:          /provider
+    column:               id_casa_medica
+    with_wildcard_routes: true
+
+tipo_presentacion:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                TipoPresentacion
+    module:               tipo_presentacion
+    prefix_path:          /tipo_presentacion
+    column:               id_tipo_presentacion
+    with_wildcard_routes: true
+
+posicion:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Posicion
+    module:               posicion
+    prefix_path:          /posicion
+    column:               id_posicion
+    with_wildcard_routes: true
+
+medicina:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Medicina
+    module:               medicina
+    prefix_path:          /medicina
+    column:               id_medicina
+    with_wildcard_routes: true
+
+departamento:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Departamento
+    module:               departamento
+    prefix_path:          /departamento
+    column:               id_departamento
+    with_wildcard_routes: true
+
+casa_medica:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                CasaMedica
+    module:               casa_medica
+    prefix_path:          /casa_medica
+    column:               id_casa_medica
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: default, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
